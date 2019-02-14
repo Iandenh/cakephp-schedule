@@ -1,0 +1,26 @@
+{
+  "name": "iandenh/cakephp-schedule",
+  "type": "cakephp-plugin",
+  "require": {
+    "cakephp/cakephp": "^3.6",
+    "dragonmantank/cron-expression": "^2.2"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ian den Hartog"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Iandenh\\Schedule\\": "src"
+    }
+  },
+  "require-dev": {
+    "cakephp/cakephp-codesniffer": "^3.1"
+  },
+  "scripts": {
+    "cs-check": "phpcs --colors -p src/",
+    "cs-fix": "phpcbf --colors src/"
+  }
+}
