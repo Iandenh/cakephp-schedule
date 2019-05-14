@@ -2,8 +2,10 @@
   "name": "iandenh/cakephp-schedule",
   "type": "cakephp-plugin",
   "require": {
+    "php": "^7.1",
     "cakephp/cakephp": "^3.6",
-    "dragonmantank/cron-expression": "^2.2"
+    "dragonmantank/cron-expression": "^2.2",
+    "symfony/process": "^4.2"
   },
   "license": "MIT",
   "authors": [
